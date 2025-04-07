@@ -120,7 +120,7 @@ public class TicketSales {
                                 }
                             } else {
                                 System.out.println("\nEdad no válida. Por favor, ingresa un número entero mayor a cero.");
-                                scanner.nextLine(); // Clear the invalid input
+                                scanner.nextLine(); 
                             }
                         }
 
@@ -200,6 +200,6 @@ public class TicketSales {
             }
         }
         // Si el asiento no se encuentra en ninguna zona.
-        return false; // Seat not found
+        return false; 
     }
 }
